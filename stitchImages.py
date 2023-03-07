@@ -1,10 +1,10 @@
 from imutils import paths
 from PIL import Image
 import cv2
-
+from paths import image_folder, stitched_path
 
 def stitching():
-  image_folder = r'C:\Users\siddh\Desktop\mdp-g20\image_recognition\runs\detect'
+  # image_folder = r'C:\Users\siddh\Desktop\mdp-g20\image_recognition\runs\detect'
   #image_folder = r'./runs/detect'
   imagePaths = []
   # for directory in image_folder: 
@@ -24,5 +24,5 @@ def stitching():
     new_im.paste(im, (x_offset,0))
     x_offset += im.size[0]
 
-  new_im.save(r'C:\Users\siddh\Desktop\mdp-g20\image_recognition\runs\stitched\stitchedOutput.png', format='png')
+  new_im.save(stitched_path, format='png')
   
