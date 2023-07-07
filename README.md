@@ -36,13 +36,13 @@ Open the ``paths.py`` file in the same directory and edit the following lines:
 # To get the absolute path of a file/directory, right click on it in Visual Studio Code and click on COPY PATH
 
 # Change this to the absolute path of the directory .\runs\detect
-image_folder = r'C:\Users\siddh\Desktop\mdp-g20\image_recognition\runs\detect'
+image_folder = r'..\runs\detect'
 
 # Change this to the absolute path of the directory ./yolov5/yolov5/content/yolov5
-model_path = 'C:/Users/siddh/Desktop/mdp-g20/image_recognition/yolov5/content/yolov5' # local
+model_path = r'..' # local
 
 # Change this to the absolute path of the directory ./best-model.pt
-wts_path = 'C:/Users/siddh/Desktop/mdp-g20/image_recognition/best-model.pt'
+wts_path = r'../best-model.pt'
 ```
 
 To test all installations:
