@@ -19,7 +19,7 @@ mkdir cz3004_imgrec
 Git clone this repository:
 
 ```bash
-git clone https://github.com/siddhantpathakk/CZ3004-IR.git
+git clone https://github.com/siddhantpathakk/CZ3004-Image-Recognition.git
 ```
 
 Unzip the 'yolov5.zip' folder in the same directory.
