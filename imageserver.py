@@ -4,12 +4,11 @@ from datetime import datetime
 import numpy as np
 import imagezmq
 import argparse
-import imutils
 import cv2
 import torch
 import stitchImages
 from paths import model_path, wts_path
-
+import imutils
 model = torch.hub.load(model_path, 'custom', path=wts_path, source='local')  # local repo
 print("Model loaded")
 

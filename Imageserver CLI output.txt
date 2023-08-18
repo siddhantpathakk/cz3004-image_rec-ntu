@@ -1,0 +1,65 @@
+(imgrec) C:\Users\siddh\Desktop\CZ3004-IR>ython imageserver.py
+'ython' is not recognized as an internal or external command,
+operable program or batch file.
+
+(imgrec) C:\Users\siddh\Desktop\CZ3004-IR>python imageserver.py
+YOLOv5  v7.0-72-g064365d Python-3.10.9 torch-1.13.1 CUDA:0 (NVIDIA GeForce GTX 1650 Ti, 4096MiB)
+
+Fusing layers...
+custom_YOLOv5s summary: 182 layers, 7327428 parameters, 0 gradients
+Adding AutoShape...
+Model loaded
+ZMQ port for connection has been opened
+raspberrypi connected
+image 1/1: 640x640 1 20
+Speed: 30.5ms pre-process, 3089.2ms inference, 89.9ms NMS per image at shape (1, 3, 640, 640)
+Object found, details are as follows:
+Class ID :      2Confidence :    0.9213494062423706
+[IMGREC] Class ID 20 sent to Raspberry Pi
+Saved 1 image to runs\detect\exp14
+['C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp10\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp11\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp12\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp13\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp14\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp2\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp3\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp4\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp5\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp6\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp7\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp8\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp9\\image0.jpg']
+raspberrypi connected
+image 1/1: 640x640 1 31
+Speed: 8.2ms pre-process, 187.1ms inference, 108.4ms NMS per image at shape(1, 3, 640, 640)
+Object found, details are as follows:
+Class ID :      31
+Confidence :    0.9013348817825317
+[IMGREC] Class ID 31 sent to Raspberry Pi
+Saved 1 image to runs\detect\exp15
+['C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp10\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp11\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp12\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp13\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp14\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp15\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp2\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp3\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp4\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp5\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp6\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp7\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp8\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp9\\image0.jpg']
+raspberrypi connected
+image 1/1: 640x640 1 24
+Speed: 10.5ms pre-process, 182.9ms inference, 4.0ms NMS per image at shape (1, 3, 640, 640)
+Object found, details are as follows:
+Class ID :      24
+Confidence :    0.9581117033958435
+[IMGREC] Class ID 24 sent to Raspberry Pi
+Saved 1 image to runs\detect\exp16
+['C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp10\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp11\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp12\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp13\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp14\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp15\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp16\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp2\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp3\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp4\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp5\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp6\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp7\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp8\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp9\\image0.jpg']
+raspberrypi connected
+image 1/1: 640x640 1 25
+Speed: 9.0ms pre-process, 189.4ms inference, 45.1ms NMS per image at shape (1, 3, 640, 640)
+Object found, details are as follows:
+Class ID :      25
+Confidence :    0.9167417287826538
+[IMGREC] Class ID 25 sent to Raspberry Pi
+Saved 1 image to runs\detect\exp17
+['C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp10\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp11\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp12\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp13\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp14\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp15\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp16\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp17\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp2\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp3\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp4\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp5\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp6\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp7\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp8\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp9\\image0.jpg']
+raspberrypi connected
+image 1/1: 640x640 1 34
+Speed: 11.0ms pre-process, 151.8ms inference, 5.4ms NMS per image at shape (1, 3, 640, 640)
+Object found, details are as follows:
+Class ID :      34
+Confidence :    0.9116140007972717
+[IMGREC] Class ID 34 sent to Raspberry Pi
+Saved 1 image to runs\detect\exp18
+['C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp10\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp11\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp12\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp13\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp14\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp15\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp16\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp17\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp18\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp2\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp3\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp4\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp5\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp6\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp7\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp8\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp9\\image0.jpg']
+raspberrypi connected
+image 1/1: 640x640 1 11
+Speed: 0.0ms pre-process, 192.9ms inference, 0.0ms NMS per image at shape (1, 3, 640, 640)
+Object found, details are as follows:
+Class ID :      11
+Confidence :    0.9069444537162781
+[IMGREC] Class ID 11 sent to Raspberry Pi
+Saved 1 image to runs\detect\exp19
+['C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp10\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp11\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp12\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp13\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp14\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp15\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp16\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp17\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp18\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp19\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp2\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp3\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp4\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp5\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp6\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp7\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp8\\image0.jpg', 'C:\\Users\\siddh\\Desktop\\CZ3004-IR\\runs\\detect\\exp9\\image0.jpg']
